@@ -1,0 +1,52 @@
+# Build artefacts
+/bin/
+/dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go tooling
+/vendor/
+coverage.out
+coverage.html
+*.coverprofile
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Secrets
+/secrets/
+*.pem
+*.key
+*.crt
+
+# Terraform state
+*.tfstate
+*.tfstate.*
+.terraform/
+terraform.tfstate.d/
+.terraform.lock.hcl
+
+# IDEs / editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Temporary files
+/tmp/
+*.tmp
+*.log
